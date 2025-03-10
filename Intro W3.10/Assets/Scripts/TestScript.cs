@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class TestScript : MonoBehaviour
@@ -12,6 +13,6 @@ public class TestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("yay");
     }
 }
